@@ -1,40 +1,177 @@
-.Page {
-  width: 1219px;
+@import url("normalize.css");
+
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 55px;
   padding-right: 55px;
+
+  border: solid;
 }
 
-/* Hat */
-.Header {
-  width: 1219px;
-  background-color: #007765;
+.clearfix {
+  clear: both;
+}
+
+/* HEADER */
+.hat {
+  width: 100%;
+  top: 0;
   position: fixed;
+  background-color: #007765;
 }
 
 .logo {
-  /* Positioning */
   float: left;
   margin-top: 20px;
   margin-bottom: 19px;
-  margin-left: 55px;
 }
 
-.Header-text {
-  /* Font style */
+nav {
+  float: right;
+  margin-top: 28px;
+
   font-family: 'Roboto', 'Helvetica Nue', sans-serif;
   font-style: normal;
   font-weight: 500;
-  color: #FFFFFF;
   font-size: 24px;
   line-height: 28px;
-
-  /* Positioning */
-  text-align: right;
-  margin-top: 28px;
-  margin-right: 24px;
-}
-
-.Header-text a {
   color: #FFFFFF;
-  text-decoration: none;
 }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Roboto', 'Helvetica Nue', sans-serif;
+}
+
+/* Block 1 */
+.hero1 {
+  margin-top: 84px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background-image: url('images/block1.svg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero1 .message {
+  font-family: 'Roboto', sans-serif;;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Block 2 */
+.hero2 {
+  padding-top: 48px;
+  padding-bottom: 92px;
+  background: #EEEEEE;
+}
+
+.hero2 .header{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+
+.hero2  .content {
+  margin-top: 16px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+/* Block 3 */
+.hero3 {
+  background-image: url('images/block3.svg');
+  background-size: cover;
+  background-position: center center;
+  padding-top: 128px;
+  padding-bottom: 127px;
+}
+
+.hero3 .message {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+
+  margin-left: 108px;
+  margin-right: 108px;
+}
+
+/* Block 4 */
+.hero4 {
+  background: #FFFFFF;
+}
+
+.hero4 .header{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+
+.hero4 .content1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #000000;
+}
+
+.hero4 .content2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #000000;
+}
+
+.hero4 .content1 img{
+  float: left;
+  border: solid;
+  width: 115px;
+  height: 115px;
+}
+
+.hero4 .content1 p{
+  float: right;
+  margin-left: 218;
+  border: solid;
+}
+
