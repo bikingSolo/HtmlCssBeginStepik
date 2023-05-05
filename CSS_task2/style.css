@@ -7,7 +7,6 @@
   margin-right: auto;
   padding-left: 55px;
   padding-right: 55px;
-
 }
 
 .clearfix {
@@ -31,7 +30,6 @@
 nav {
   float: right;
   margin-top: 28px;
-
   font-family: 'Roboto', 'Helvetica Nue', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -95,7 +93,6 @@ nav a {
 
 .hero2  .content {
   margin-top: 16px;
-
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -121,7 +118,6 @@ nav a {
   line-height: 56px;
   text-align: center;
   color: #FFFFFF;
-
   margin-left: 108px;
   margin-right: 108px;
 }
@@ -141,7 +137,6 @@ nav a {
   line-height: 75px;
   text-align: center;
   color: #007765;
-
   padding-bottom: 16px;
 }
 
@@ -151,7 +146,6 @@ nav a {
   font-weight: 400;
   font-size: 32px;
   line-height: 38px;
-
   color: #000000;
 }
 
@@ -167,5 +161,81 @@ nav a {
 }
 
 /* Block 4 */
+.hero5 {
+  background-color: #EEEEEE;
+  padding-top: 48px;
+  padding-bottom: 94px;
+}
 
+.hero5 .header {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
 
+.hero5 figure {
+  display: inline-block;
+  text-align: center;
+  padding-top: 24px;
+}
+
+.hero5 .i1, .i2 {
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+.hero5 .i3 {
+  margin: 0;
+}
+
+.hero5 .block {
+  text-align: center;
+}
+
+.hero5 .name {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+  margin: auto;
+}
+
+.hero5 .pos {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.hero5 img {
+  margin: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/* Footer */
+.foot {
+  background-color: #333333;
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+
+.foot p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-left: 285px;
+  margin-right: 285px;
+  color: #FFFFFF;
+}
