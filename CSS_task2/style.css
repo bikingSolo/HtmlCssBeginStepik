@@ -8,7 +8,6 @@
   padding-left: 55px;
   padding-right: 55px;
 
-  border: solid;
 }
 
 .clearfix {
@@ -130,20 +129,24 @@ nav a {
 /* Block 4 */
 .hero4 {
   background: #FFFFFF;
+  padding-bottom: 92px;
+  padding-top: 48px;
 }
 
-.hero4 .header{
-  font-family: 'Roboto';
+.hero4 .header {
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 64px;
   line-height: 75px;
   text-align: center;
   color: #007765;
+
+  padding-bottom: 16px;
 }
 
-.hero4 .content1{
-  font-family: 'Roboto';
+.hero4 p {
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -152,26 +155,17 @@ nav a {
   color: #000000;
 }
 
-.hero4 .content2{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 38px;
-
-  color: #000000;
-}
-
-.hero4 .content1 img{
+.hero4 img {
   float: left;
-  border: solid;
+  padding-right: 48px;
   width: 115px;
   height: 115px;
 }
 
-.hero4 .content1 p{
-  float: right;
-  margin-left: 218;
-  border: solid;
+.hero4 .text {
+  margin: 0;
 }
+
+/* Block 4 */
+
 
