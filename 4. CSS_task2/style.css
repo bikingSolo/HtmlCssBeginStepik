@@ -14,7 +14,7 @@
 }
 
 /* HEADER */
-.hat {
+.navbar {
   width: 100%;
   top: 0;
   position: fixed;
@@ -160,7 +160,7 @@ nav a {
   margin: 0;
 }
 
-/* Block 4 */
+/* Block 5 */
 .hero5 {
   background-color: #EEEEEE;
   padding-top: 48px;
