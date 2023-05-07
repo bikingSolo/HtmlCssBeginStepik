@@ -1,12 +1,19 @@
  Homeworks from course ["Веб-разработка для начинающих: HTML и CSS"](https://stepik.org/course/38218/syllabus) by Stepik.
 
+# Links to my sites
+1. [PiedPiper](https://pied-piper-lol.netlify.app/)
+2. [НЛК](https://science-personal-acc.netlify.app/)
+
 # Useful
 
 1. [CodePen](https://codepen.io/pen/%EF%BB%BF) - coding in browser
 2. [Figma](https://www.figma.com/files/recent?fuid=1235557800068506067) - templates (PSD,...)
 3. [Google Fonts](https://fonts.google.com/) - download fonts
 4. [Font Awesome](https://fontawesome.com/) - fonts and logos (svg)
-5. [Bootstrap 5 docs](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+5. [Bootstrap 5 docs](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - framework for site dev
+6. [JS Guide](http://learn.javascript.ru/) - further evolution
+7. [Netlify](https://app.netlify.com/) - hosting
+8. [Tilda](https://tilda.cc/ru/) - for site construction without code
 
 ## CSS
 1. [Man on Russian](https://webref.ru/css)
@@ -38,3 +45,15 @@
 3. [BootStrapGrid](https://www.figma.com/file/Ymijl6oFHyJWBKt67eKaRMDz/Responsive-Layout-Grid?type=design&node-id=0-1&t=Pq3cpG9b0WgQD8O5-0)
 4. <s>[jquery](https://code.jquery.com/jquery-3.3.1.slim.min.js)</s>
 5. <s>[popper.js](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js)</s>
+
+## Frontend
+Skills: HTML, CSS, JS<br>
+1. [How to find work](https://www.youtube.com/playlist?list=PLb3CNouRE9LybaxaSLMX_KJh9dJJbVQH9)   
+2. [About](https://bespoyasov.ru/front-not-pain/)  
+3. [JS Guide](http://learn.javascript.ru/)
+
+## Backend
+Skills: PHP | Python | Java, C# | JS
+
+## Hosting
+1. [Netlify](https://app.netlify.com/)
