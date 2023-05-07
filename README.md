@@ -36,5 +36,5 @@
 1. [Docs](https://getbootstrap.com/)
 2. [On Russian](https://bootstrap-4.ru/)
 3. [BootStrapGrid](https://www.figma.com/file/Ymijl6oFHyJWBKt67eKaRMDz/Responsive-Layout-Grid?type=design&node-id=0-1&t=Pq3cpG9b0WgQD8O5-0)
-4. [jquery](https://code.jquery.com/jquery-3.3.1.slim.min.js)
-5. [popper.js](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js)
+4. <s>[jquery](https://code.jquery.com/jquery-3.3.1.slim.min.js)</s>
+5. <s>[popper.js](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js)</s>

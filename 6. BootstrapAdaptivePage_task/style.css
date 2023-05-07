@@ -1,12 +1,6 @@
-.container {
-  padding-left: 49px;
-  padding-right: 49px;
-}
-
 /* Navbar */
 body {
   font-family: 'Roboto', sans-serif !important;
-  /* min-width: 320px; */
 }
 
 .navbar-nav {
@@ -40,17 +34,40 @@ body {
 /* Portfolio */
 .portfolio {
   text-align: left;
-  padding-top: 64px;
-  padding-bottom: 64px;
   background-color: #E9ECEF;
 }
 
 .portfolio span {
-  font-style: normal;
   font-weight: 300;
   font-size: 72px;
   line-height: 84px;
+  font-style: normal;
   color: #212529;
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio {
+    padding-top: 32px;
+    padding-bottom: 48px;
+  }
+  .portfolio span {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio {
+    padding-top: 72px;
+    padding-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 }
 
 .portfolio p {
@@ -66,4 +83,19 @@ body {
 
 .portfolio button {
   margin-left: 6px;
+}
+
+/* Profila and Statistic */
+.prof-stat {
+  padding-top: 32px;
+}
+
+/* Table */
+.clr-col {
+  color: #007BFF;
+}
+
+/* Footer */
+footer {
+  background-color: #F5F5F5;
 }
